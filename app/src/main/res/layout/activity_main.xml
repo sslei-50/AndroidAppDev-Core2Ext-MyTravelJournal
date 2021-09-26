@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/secondaryColor"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/butchart_imageV"
+        style="@style/GridImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/left_guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23"
+        app:srcCompat="@drawable/butchart" />
+
+    <ImageView
+        android:id="@+id/grandcanyon_imageV"
+        style="@style/GridImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.23"
+        app:srcCompat="@drawable/grandcanyon" />
+
+
+    <TextView
+        android:id="@+id/butchartTitle_textV"
+        style="@style/photoTitleTextView"
+        android:text="@string/photo1Intro"
+        android:maxLines="2"
+        app:layout_constraintEnd_toEndOf="@+id/butchart_imageV"
+        app:layout_constraintStart_toStartOf="@+id/left_guideline"
+        app:layout_constraintTop_toBottomOf="@+id/butchart_imageV" />
+
+    <TextView
+        android:id="@+id/grandcanyonTitle_textV"
+        style="@style/photoTitleTextView"
+        android:text="@string/photo2Intro"
+        android:maxLines="2"
+        app:layout_constraintEnd_toStartOf="@+id/right_guideline"
+        app:layout_constraintTop_toBottomOf="@+id/grandcanyon_imageV" />
+
+    <TextView
+        android:id="@+id/mossmanTitle_textV"
+        style="@style/photoTitleTextView"
+        android:text="@string/photo3Intro"
+        android:maxLines="2"
+        app:layout_constraintEnd_toEndOf="@+id/creekqld_imageV"
+        app:layout_constraintStart_toStartOf="@+id/left_guideline"
+        app:layout_constraintTop_toBottomOf="@+id/creekqld_imageV" />
+
+    <TextView
+        android:id="@+id/harbinoperahouseTitle_textV"
+        style="@style/photoTitleTextView"
+        android:text="@string/photo4Intro"
+        android:maxLines="2"
+        app:layout_constraintEnd_toStartOf="@+id/right_guideline"
+        app:layout_constraintTop_toBottomOf="@+id/harbinoperahouse_imageV" />
+
+
+    <ImageView
+        android:id="@+id/creekqld_imageV"
+        style="@style/GridImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/left_guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.70"
+        app:srcCompat="@drawable/creekqld" />
+
+    <ImageView
+        android:id="@+id/harbinoperahouse_imageV"
+        style="@style/GridImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/right_guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.70"
+        app:srcCompat="@drawable/harbinoperahouse" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/left_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="4dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/right_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="408dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

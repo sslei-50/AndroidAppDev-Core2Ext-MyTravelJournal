@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">MyTravelJournal</string>
+
+    <!--    1st photo    -->
+    <string name="photo1Image">butchant</string>
+    <string name="photo1Name">Butchart Gardens</string>
+    <string name="photo1Intro">Butchart Gardens\n4.5 Stars</string>
+
+
+    <!--    2nd photo    -->
+    <string name="photo2Image">grandcanyon</string>
+    <string name="photo2Name">Grand Canyon</string>
+    <string name="photo2Intro">Grand Canyon\n5.0 Stars</string>
+
+
+    <!--    3rd photo   -->
+    <string name="photo3Image">creekqld</string>
+    <string name="photo3Name">Mossman Gorge</string>
+    <string name="photo3Intro">Mossman Gorge\n4.0 Stars</string>
+
+
+    <!--    4th photo   -->
+    <string name="photo4Image">harbinoperahouse</string>
+    <string name="photo4Name">Harbin Opera House</string>
+    <string name="photo4Intro">Harbin Opera House\n3.5 Stars</string>
+
+
+    <!--    Error messages   -->
+    <string name="nameInputError">Alphabets, spaces and commas only for Name</string>
+    <string name="cityAndStateInputError">Alphabets, spaces and commas only for City, State</string>
+    <string name="countryInputError">Alphabets, spaces and commas only for Country</string>
+    <string name="dateInputError">Please enter a date before today</string>
+
+</resources>
